@@ -1,0 +1,285 @@
+@media all and (min-width:300px) {
+    body {
+        background-color: black;
+    } 
+    .row {
+        margin-bottom: 20px;
+    }
+    h1, h2, h3, h4, h5, p {
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        margin: 0;
+    }
+    h1 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 115%;        
+    }
+    h1.mobile {
+        margin-left: 25px;
+    }
+    h2 {
+        line-height: 125%;
+        margin: 10px;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    h3 {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    p {
+        font-size: 14px;
+    }
+    hr {
+        border-color: white;
+    }
+    .showcase {
+        margin-top: 25px;
+    }
+    .icon {
+        color: white;
+        font-size: 1.8em;
+        padding-right: 10px;
+    }
+    .showcase_text {
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .showcase_right {
+        padding-right: 0;
+    }
+    .animate {
+        opacity: 0;
+    }
+    .use {
+        margin-left: 45px;
+        position: relative;
+    }    
+    .use::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 45px;
+        content: "";
+        transition: width 2s ease-in 1s;
+        z-index: -1;
+        background-color: #f6609f;
+    }
+    .wear {
+        margin-left: 20px;
+        position: relative;
+    }
+    .wear::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 60px;
+        content: "";
+        transition: width 2s ease-in 1s;
+        z-index: -1;
+        background-color: #0f3aa0;
+    }
+    .see {
+        margin-left: 30px;
+        position: relative;
+    }
+    .see::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 95px;
+        content: "";
+        transition: width 2s ease-in 1s;
+        z-index: -1;
+        background-color: #749fd2;
+    }
+    .everyday {
+        width: 75%;
+    }
+    .logoImage {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        opacity: .85;
+    }
+    .desktop {
+        display: none;
+    }
+    .tagline {
+        margin-top: 40px;
+        margin-bottom: 75px;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+    }
+    .content-row {
+        overflow: hidden;
+        margin: 0 10px 50px 10px;
+    }
+    .content {
+        padding: 10px;
+        margin: 0;
+    }
+    .content p {
+        font-size: 16px;
+    }
+    .responsive-img {
+        width: 100%;
+        height: auto;
+    }
+    .instagram {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .ri-grid ul li {
+        margin: 5px;
+    }
+    .footer {
+        text-align: center;
+    }
+    
+    } /* ------ mobile base styles end ------- */
+
+@media all and (min-width:700px) {
+    
+    h1 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 115%;        
+    }    
+    h2 {
+        font-size: 24px;
+        line-height: 170%;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 13px;
+        line-height: 110%;
+    }
+    .showcase {
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top: 3vh;
+        min-height: 250px;
+    }
+    .showcase_text {
+        margin-top: 25px;
+        margin-left: 0;
+/*
+        position: absolute;
+        left: 0;
+*/
+    }
+    .showcase_right {
+        position: relative;
+        display: block;
+/*        height: 90vh;*/
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .use {
+        margin-left: 45px;
+        position: relative;
+    }    
+    .use::after {
+        height: 75%;
+        width: 45px;
+
+    }
+    .wear {
+        margin-left: 20px;
+        position: relative;
+    }
+    .wear::after {
+        height: 75%;
+        width: 70px;
+    }
+    .see {
+        margin-left: 30px;
+        position: relative;
+    }
+    .see::after {
+        height: 75%;
+        width: 100px;
+    }
+
+    .logoImage {
+        width: 375px;
+        z-index: -2;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+    .content-row {
+        overflow: hidden;
+        width: 100%;
+        margin: 0 20px 100px 20px;
+    }
+    .content {
+        padding: 25px;
+        margin: 0;
+    }
+    .content p {
+        font-size: 18px;
+    }
+    .footer {
+        display: none;
+    }
+
+    
+    
+    } /* ------ tablet styles end ------- */
+
+@media all and (min-width:992px) {
+   
+
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 115%;        
+    } 
+    h2 {
+        font-size: 30px;
+        line-height: 200%;
+    }
+    h3 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 110%;
+    }
+    .content p {
+        font-size: 20px;
+    }
+    .showcase {
+        min-height: 450px;
+    }
+    .use::after {
+        width: 65px;
+    }
+    .wear::after {
+        width: 90px;
+    }
+    .see::after {
+        width: 130px;
+    }
+    .logoImage {
+        width: 530px;
+    }
+
+    
+} /* ------ desktop styles end ------- */
